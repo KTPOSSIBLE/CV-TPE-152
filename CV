@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>  
+    <title>CURICULUM VITAE de [KEDIOHKOM VEMOTEBOM THELMA]</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 50px;
+            background-color: #850a0a8e;
+        }
+        .container {
+            background-color: #d4d0d0;
+            padding: 250px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(31, 64, 70, 0.1);
+        }
+        h1, h2, h3 {
+            color: #5e0404c7;
+        }
+        .info {
+            margin-bottom: 5px;
+        }
+        .experience-item, .formation-item {
+            margin-bottom: 10px;
+        }
+        .date {
+            font-style: italic;
+            color: #4e0be9;
+            margin-right: 1px;
+        }
+        ul {
+            list-style-type: circle;
+            padding-left: 2cm;
+        }
+        .img {
+            position: absolute;
+            top: 200px;
+            left: 10px;
+            clip-path: sqare(50% at 50% );
+            border-radius: 30%;
+           
+        }
+    </style>
+</head>
+<body>
+
+    <section itemtype="images">
+        
+            <img class="img" src="Bleach.jpeg"alt="MA PHOTO" width="230" height="240">
+        
+    </section>
+
+    <div class="container">
+        <header>
+            <h1><strong>CURRICULUM VITAE</strong></h1>
+            <h2>KEDIOHKOM VEMOTEBOM THELMA</h2>
+            <p class="info">Email: thelmakediohkom@gmail.com | Téléphone: 650 81 77 94</p>
+           
+        </header>
+    
+        <section class="section">
+            <h2>Etudiante premiere annee</h2>
+            <div class="experience-item">
+                <h3>[Informatique niveau 1]</h3>
+                <p class="date">[27\05\2025] - [27\10\2025]</p>
+                <p>[L'UNIVERCITE DE DOUALA], [PK 17 LOGBESSOU]</p>
+                <br><p>Profile</p>
+            <br>je suis une etudiante travailleuse et dinamique, je peut travailler sous pression avec l'ambition 
+            <br> d'apprendre de nouvelle choce chaque jour afin d'enrichire mon experience et d'agrandir mes <br>connaissaces.
+        
+                <ul>
+                    <li> J'ai realiser un projet arduino a Yaoundem qui consistaire a faire une port autumatique securise. Que l'on ne peut traverser qu'a l'aide d'une carte d'isentification.
+                        <br>Toujour dans la realisation de projet Arduino, j'ai participe a la creation d'un barrage automatique qui a l'aide d'un detecteur de d'objet, ouvre le barrage pour lesser passe le vehicule.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>NIVEAU D'ETUDE</h2>
+            <div class="formation-item">
+                <h4>BACCALOREAT D</h4>
+                <p class="date">Diplome obtenu en 2024</p>
+                <p>LYCEE POLYVANT DE BONABERIE, Ville d'optantion du diplome: BONABERIE</p>
+                <p>Description optionnelle de la formation</p>
+            </div>
+            <div class="formation-item">
+                <h4>PROBATOIRE D</h4>
+                <p class="date">Diplome obtenue en 2023</p>
+                <p>LYCEE POLYVALANT DE BONABERIE, Ville d'optantion du diplome: BONABERIE</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Bonne metrise de MSWorld</li>
+                <li>Notion en programmation C</li>
+                <li>Notion en programmation HtML</li>
+                <li>Notion en programmation C++</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Langues</h2>
+            <ul>
+                <li>Français (Courant)</li>
+                <li>Anglais (Langue maternelle)</li>
+                <li>Chinoir (debutant)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2> <br>Mes loisirs</br></h2>
+            <p><br>Les Manwha,</br> <br>Les Mangas,</br> <br>Les Dessins</br></p>
+        </section>
+    </div>
+</body>
+</html>
